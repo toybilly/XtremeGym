@@ -23,10 +23,9 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 header {
@@ -101,12 +100,11 @@ header > ul > li{
 main{
     grid-area: i;
     display: flex;
-    flex-direction:column;
     justify-content: center;
+    flex-direction: column;
     row-gap: 50px;
-    font-size: 20px;
     align-items: center;
-
+    font-size: 20px;
 
 }
 
@@ -114,21 +112,63 @@ main > h1 {
     color: #E9ECEC;
 }
 
-.entrada{
-    margin-right: 150px;
-}
-.entrada > img{
-    width: 250px;
-    height: 250px;
-
+main > form > label {
+    color: #E9ECEC;
 }
 
-.saida > img{
-    width: 250px;
-    height: 250px;
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
 }
 
-.estoque{
-    display:flex;
-    flex-direction: row;
+form > input{
+    border-radius: 15px;
+    font-size: 18px;
+    height: 30px;
+}
+
+form > div > a{
+    color: white;
+}
+
+button {
+    border-radius: 20px;
+    height:25px;
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+footer{
+    width: 100%;
+    background-color: #182140;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80px;
+}
+
+footer > div{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    column-gap: 10px;
+}
+
+
+header i {
+    color: #E9ECEC;
+    font-size: 2em;
+}
+
+footer i {
+    color: #E9ECEC;
+    align-items: end;
+    float: right;
+    padding: 5px;
+    width: 30px;
+    font-size: 1.5em;
 }

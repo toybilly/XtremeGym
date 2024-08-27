@@ -26,7 +26,7 @@ body{
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 header {
@@ -167,5 +167,4 @@ footer i {
     color: #E9ECEC;
     align-items: end;
     float: right;
-    
 }
