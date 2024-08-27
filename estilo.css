@@ -49,7 +49,7 @@ header > ul > li{
 }
 .hdireita {
     font-size: 1.3rem;
-    font-weight: 800;
+    font-weight: 900;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -59,10 +59,7 @@ header > ul > li{
     color: #E9ECEC;
     padding: 8px 16px;
     border-radius: 50px;
-    font-weight: 500;
-    word-spacing: 2px;
-    display: block;
-    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .btn-02{
@@ -142,8 +139,8 @@ header > ul > li{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "amamosimagem amamostexto"
-    ;
+    "amamosimagem amamostexto";
+    background-color: #bec0c5;
 }
 
 .sobre-img{
@@ -160,7 +157,7 @@ header > ul > li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px 0;
+    gap: 30px ;
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -192,17 +189,20 @@ header > ul > li{
     gap: 30px;
     background-color: #E9ECEC;
     width: 100%;
-    text-align: center
+    text-align: center;
+    background-color: #bec0c5;
+    font-style: inherit;
 }
 
 .mensalidades-texto > p{
-    font-size: 1.6rem;
-    font-weight: 500;
+    height: 5px;
+    font-size: 1.3rem;
+    font-weight: 800px;
     width: 100%;
 }
 
 mensalidade-img {
-    width:100%
+    width:50%;
 }
 
 footer {
@@ -239,11 +239,11 @@ footer {
     justify-content: center;
     margin: 30px 0;
 }
+
 .sociais i{
     font-size: 2rem;
     padding-left: 16px;
     font-style: normal;
-    
 }
 
 .rodape ul{
