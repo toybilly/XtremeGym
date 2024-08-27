@@ -201,6 +201,10 @@ header > ul > li{
     width: 100%;
 }
 
+mensalidade-img {
+    width:100%
+}
+
 footer {
     width: 100vw;
     margin: 30px 0;
@@ -267,6 +271,3 @@ header i {
     font-size: 2em;
 }
 
-.mapa-img {
-    align-items: center;
-}
