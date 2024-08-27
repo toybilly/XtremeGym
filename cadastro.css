@@ -168,5 +168,7 @@ footer i {
     align-items: end;
     float: right;
     width: 30px;
+    font-size: 1.5em;
+    padding: 5px;
     
 }
