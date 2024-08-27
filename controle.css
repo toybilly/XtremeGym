@@ -1,0 +1,61 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+h1{
+
+    background-color: #3E56A6;
+    text-align: center;
+    color: white
+}
+
+thead > tr > th{
+    text-align: center;
+}
+
+header{
+    background: linear-gradient(#3E56A6, #182140);
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 15vh 70vh 25vh;
+    height: 100px;
+}
+
+.logo  {
+    height: 80px;
+}
+
+.hdireita i{
+    color: white;
+    font-size: 3em;
+}
+
+tr{
+    height: 80px;
+}
+
+footer{
+        width: 100%;
+        background-color: #182140;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 80px;
+}
+
+footer i {
+    color: #E9ECEC;
+    align-items: end;
+    float: right;
+    padding: 5px;
+    width: 40px;
+    font-size: 1.5em;
+}
