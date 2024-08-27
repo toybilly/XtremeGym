@@ -145,7 +145,7 @@ footer{
     justify-content: end;
     align-items: center;
     flex-wrap: wrap;
-    height: 80px;
+    height: 110px;
 }
 
 footer > div{
@@ -167,5 +167,6 @@ footer i {
     color: #E9ECEC;
     align-items: end;
     float: right;
+    width: 30px;
     
 }
