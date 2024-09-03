@@ -10,37 +10,42 @@
    
 </head>
 <body>
-    <header>
-        <div class="hesquerda">
-            <img class="logo" src="img/Logo XtremeGym 10.png">
-        </div>
-        <div class="hdireita">
-            <i class="bi bi-list"></i>
-        </div>
-    </header>
-    <main>
-        <div style="background: linear-gradient(#3E56A6, #182140);">
-        <div class="row col-4 mx-auto">
-    <div class="row shadow p-4  mt-4">
-        <h1>Login Funcionário</h1>
-        <i class="bi bi-person-circle mx-auto text-center text-info fs-2"></i>
-        <input type="text" class="form-control rounded-pill m-2" placeholder="Nome:">
-        <input type="text" class="form-control rounded-pill m-2" placeholder="CPF:">
-        <input type="text" class="form-control rounded-pill m-2" placeholder="Email:">
-        <input type="password" class="form-control rounded-pill m-2" placeholder="Senha:">
-        <button class="btn btn-primary text-center rounded-pill mx-auto m-2">Logar</button>
-        <hr>
-        <label class="text-center p-4">Acesse com mídias sociais</label>
-        <div class="row col-6 mx-auto m-2">
-            <i class="bi bi-facebook text-info col fs-15"></i>
-            <i class="bi bi-instagram text-info col"></i>
-            <i class="bi bi-telephone text-info col"></i>
-        </div>
+    <div class="container">
+        <header>
+            <div class="hesquerda">
+                <div class="logo"> <img src="img/Logo XtremeGym 10.png"> </div>
+            </div>
+                <div class="hdireita">
+                    <a href="#" class="btn-01">Login</a>
+                        <div class="hesquerda">
+                            <i class="bi bi-list"></i>
+                        </div>
+        </header>
+           
+            <aside>
+            </aside>
+            <main>
+                <h1>Login Funcionário</h1>
+                <form id="formulario">
+                <div class="mensagem"></div>
+                <label>Nome</label>
+                <input type="text" id="nome" name="nome">
+                <label>Cpf:</label>
+                <input type="text" id="nome" name="nome">
+                <label>Email:</label>
+                <input type="text" id="email" name="email">
+                <label>Senha:</label>
+                <input type="password" id="senha" name="senha">
+                <button>Logar</button>
+            </form>
+        </main> 
+        <footer>
+            <div class="rodape">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-telephone-fill"></i>
+            </div>
+        </footer>
     </div>
-</main>
-<footer>
-    <div class="rodape">
-    </div>
-</footer>
 </body>
 </html>

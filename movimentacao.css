@@ -1,0 +1,121 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #182140;
+    width: 100vw;
+    border-bottom: 1px solid rgba(15, 10, 55, 0.7);
+    display: flex;
+}
+
+.logo > img {
+    height: 80px;
+}
+
+.hesquerda {
+    display: flex;
+    align-items: center;
+}
+
+.controle.h1 {
+    background-color: #3E56A6;
+    text-align: center;
+    color: white
+}
+
+.pai {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#3E56A6;
+    margin-top: 30px;
+}
+
+.container1{
+    background-color: rgb(236, 7, 7);
+    height: 100px;
+    width: 200px;
+    border-radius: 5%;
+    color: #E9ECEC;
+}
+
+.container2{
+    background-color: rgb(55, 2, 230);
+    height: 100px;
+    width: 200px;
+    border-radius: 5%;
+    color: #E9ECEC;
+}
+
+.container3{
+    background-color: rgb(2, 241, 26);
+    height: 100px;
+    width: 200px;
+    border-radius: 5%;
+    color: #E9ECEC;
+}
+
+.container4{
+    background-color: rgb(218, 218, 16);
+    height: 100px;
+    width: 200px;
+    border-radius: 5%;
+    color: #E9ECEC;
+}
+
+thead > tr > th{
+    text-align: center;
+}
+
+footer{
+        background-color: #182140;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        height: 80px;
+}
+
+footer i {
+    color: #E9ECEC;
+    align-items: end;
+    float: right;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3E56A6;
+    color: white;
+    
+}
+
+.h1{
+    display: flex;
+    text-align: center;
+
+}
+
+.controle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container1, .container2, .container3, .container4{
+    margin: 20px;
+}
