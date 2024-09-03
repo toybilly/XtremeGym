@@ -120,7 +120,7 @@ main > form > label {
 form{
     display: flex;
     flex-direction: column;
-    row-gap: 12px;
+    row-gap: 15px;
 }
 
 form > input{
@@ -167,4 +167,7 @@ footer i {
     color: #E9ECEC;
     align-items: end;
     float: right;
+    width: 40px;
+    padding: 5px;
+    font-size: 1.5em;
 }
