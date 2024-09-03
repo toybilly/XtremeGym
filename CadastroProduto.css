@@ -77,26 +77,6 @@ header > ul > li{
     align-items: center;
 }
 
-header > ul {
-    display: flex;
-}
-
-header > ul > li{
-    list-style-type: none;
-    padding-left: 30px;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin-left: 30px;
-}
-
-.hdireita {
-    color: white;
-    font-size: 1.3rem;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
 
 main{
     grid-area: i;
@@ -129,11 +109,24 @@ form > input{
     font-size: 18px;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+form > input{
+    
+    border-radius: 10px;
+    font-size: 18px;
+}
+
 form > div > a{
     color: white;
 }
 
 button {
+    
     border-radius: 20px;
     height: 30px;
     font-weight: bold;
@@ -167,8 +160,7 @@ footer i {
     color: #E9ECEC;
     align-items: end;
     float: right;
-    width: 30px;
+    width: 40px;
     font-size: 1.5em;
-    padding: 5px;
-    
+
 }
