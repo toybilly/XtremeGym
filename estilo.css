@@ -67,14 +67,15 @@ a.btn:hover {
     border-radius: 50px;
 }
 
-section.carrossel {
-    margin: 30px 30px 30px 30px;
+.img > img {
+    width: 100vw;
 }
 
 .sobreNos{
     width: 1440px;
     margin: 30px auto;
     background-color: #E9ECEC ;
+    border-radius: 25px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -85,10 +86,13 @@ section.carrossel {
 
 .sobre-img{
     grid-area: amamosimagem;
+    
 }
 
 .sobre-img img{
     width: 100%;
+    height: auto;
+    border-radius: 25px;
 }
 
 .sobre-texto {
