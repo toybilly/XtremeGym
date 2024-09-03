@@ -22,15 +22,7 @@ header {
     height: 100px;
 }
 
-header i {
-    background-color: #182140;
-    color: white;
-    display: inline-block;
-    font-size: 40px;
-    cursor: pointer;
-}
-
-.logo {
+.logo > img {
     height: 80px;
 }
 
@@ -47,29 +39,17 @@ header i {
     gap: 16px;
 }
 
-footer{
-    width: 100%;
-    background-color: #182140;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 110px;
+a.btn {
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 1.2rem;
 }
 
-footer > div{
-    margin-top: 10px;
-    margin-left: 10px;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    column-gap: 10px;
-}
-
-footer i {
-    color: #E9ECEC;
-    align-items: end;
-    float: right;
-    width: 40px;
-    font-size: 1.5em;
+a.btn:hover {
+    color: #ffffff;
+    box-shadow: rgba(0, 115, 255, 0.563) 4px 6px 12px;
+    transform: scale(0.9);
+    transition: 0.5s ease-out;
+    border-radius: 50px;
 }
