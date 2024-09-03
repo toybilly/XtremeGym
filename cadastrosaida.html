@@ -2,45 +2,46 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Saída</title>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="cadastrosaída.css">
+   
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="hesquerda">
-                <div class="logo"> <img src="img/Logo XtremeGym 10.png"> </div>
-            </div>
-                    <div class="hdireita">
-                        <i class="bi bi-list"></i>
-                    </div>
-        </header>
-
-            <main>
-                <h1>Cadastrar saída</h1>
-                <form id="formulario">
-                <div class="mensagem"></div>
-                <label>Produto:</label>
-                <input type="text" id="produto" name="produto">
-                <label>Quantidade:</label>
-                <input type="text" id="quantidade" name="quantidade">
-                <label for="iresumo">Descrição:</label>
-                <textarea name="txtvoce"id="idescricao" cols="30" rows="10"></textarea>
-                <button>Registrar saída</button>
-                <button>Cancelar</button>
-            </form>
-        </main> 
-        <footer>
-            <div class="rodape">
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-instagram"></i>
-                <i class="bi bi-telephone-fill"></i>
-            </div>
-        </footer>
+    <header>
+        <div class="hesquerda">
+            <img class="logo" src="img/Logo XtremeGym 10.png">
+        </div>
+        <div class="hdireita">
+            <i class="bi bi-list"></i>
+        </div>
+    </header>
+    <main>
+    <div style="background: linear-gradient(#3E56A6, #182140);">
+        <div class="row col-4 mx-auto">
+    <div class="row shadow p-4 mt-4">
+        <h1>Cadastro de saída</h1>
+        <i class="bi bi-award-fill mx-auto text-center text-info fs-2"></i>
+        <input type="text" class="form-control rounded-pill m-2" placeholder="Produto:">
+        <input type="text" class="form-control rounded-pill m-2" placeholder="Quantidade:">
+        <label for="iresumo">Descrição:</label>
+        <textarea name="txtvoce"id="idescricao" cols="5" rows="5"></textarea>
         
+        
+        <button class="btn btn-primary text-center rounded-pill mx-auto m-2 mt-4">Entrar</button>
+        <hr>
+        <label class="text-center p-4 mt-1 ">Acesse com mídias sociais</label>
+        <div class="row col-6 mx-auto m-1">
+            <i class="bi bi-facebook text-info col fs-15"></i>
+            <i class="bi bi-instagram text-info col"></i>
+            <i class="bi bi-telephone-fill text-info col"></i>
+        </div>
     </div>
-   
+        </main> 
+    <footer>
+        <div class="rodape">
+        </div>
 </body>
 </html>
